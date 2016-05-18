@@ -137,7 +137,7 @@ require("cf-deployment-tracker-client").track();
 var part2 = require('./utils/ws_part2');
 var ws = require('ws');
 var wss = {};
-var Ibc1 = require('ibm-blockchain-js');
+var Ibc1 = require('hyperledger-fabric-js');
 var ibc = new Ibc1();
 
 // ==================================
